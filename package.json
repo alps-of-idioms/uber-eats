@@ -1,0 +1,17 @@
+{
+  "name": "uber-eats-page",
+  "version": "1.0.0",
+  "description": "static page",
+  "main": "index.html",
+  "homepage": "https://alps-of-idioms.github.io/uber-eats",
+  "scripts": {
+    "deploy": "gh-pages -d build"
+  },
+  "repository": "git@github.com:alps-of-idioms/uber-eats.git",
+  "author": "Ivan <cellarrainbow@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}

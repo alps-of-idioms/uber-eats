@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/latest/normalize.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="flexboxgrid2.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Uber Eats</title>
+</head>
+<body class="body">
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-container">
+                <img class="header__logo" src="logos/logo.svg" alt="ubereatslogo">
+                <div class="time-adress-form">
+                    <form>
+                        <select class="time-form">
+                            <option value="ASAP">ASAP</option>
+                        </select>
+                    </form>
+                        <span class="time-adress-form__text">to</span>
+                    <form>
+                        <input type="text" class="time-adress-form__adress" placeholder="ul. Bolshaya Dmitrovka,22">
+                    </form>    
+                </div>
+                <div class="buttons-container">
+                    <button class="buttons-container__button">Sign In</button>
+                    <button class="buttons-container__button">Register</button>
+                    <a class="buttons-container__link" href="#">
+                        <img class="buttons-container__basket" src="logos/basket.svg" alt="basket">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="section">
+        <form>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <input class="search-form" placeholder="Search for restaurant or cuisine"> 
+                    </div>                     
+                </div>
+            </div>
+        </form>
+    </section>
+    <nav class="delivery-form-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-3">
+                    
+                    <span class="delivery-form-xs__position">When</span>
+                        <form>
+                            <select class="delivery-form-xs__time">	
+                                <option value="ASAP">ASAP</option>
+                            </select>
+                        </form>
+                    
+                </div>
+                <div class="col-xs-9">
+
+                        <span class="delivery-form-xs__position">To</span>
+                        <form>
+                            <input class="delivery-form-xs__address" type="text" placeholder="ul. Bolshaya Dmitrovka,22">
+                        </form>
+                    
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="restaurants-menu">
+        <div class="container">
+            <h1 class="restaurants-menu__title">Moscow Restaurants</h1>
+        
+        <div class="row">
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <a href="#" class="card_link">
+                        <div class="card">
+                            <img class="restaurant-img"  src="imgs/photo-5.png" alt="makdak">                            
+                            <span class="restaurant-name">Макдональдс &mdash; Газетный </span>
+                            <span class="restaurant-type">₽₽ • Бургеры</span>
+                            <span class="wait-time">25 - 35 Min</span>                           
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <a href="#" class="card_link">
+                        <div class="card">
+                            <img class="restaurant-img" src="imgs/photo-1.png" alt="makdak">                           
+                            <span class="restaurant-name"span>DimSum & Co &mdash; ЦМД </span>
+                            <span class="restaurant-type">₽ • Бургеры • Китайская • Азиатская</span>
+                            <span class="wait-time">40 - 50 Min</span>                             
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <a href="#" class="card_link">
+                        <div class="card">
+                            <img class="restaurant-img" src="imgs/photo.png" alt="makdak">
+                            <span class="restaurant-name">ДвижОК &mdash; Манежная </span>
+                            <span class="restaurant-type">₽ • Американская • Европейская</span>
+                            <span class="wait-time">35 - 45 Min</span>                                 
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <a href="#" class="card_link">
+                        <div class="card">
+                            <img class="restaurant-img" src="imgs/photo-2.png" alt="makdak">                            
+                            <span class="restaurant-name">НЯ &mdash; NHA </span>
+                            <span class="restaurant-type">₽₽ • Вьетнамская</span>
+                            <span class="wait-time">30 - 40 Min</span>                           
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <a href="#" class="card_link">
+                        <div class="card">
+                            <img class="restaurant-img" src="imgs/photo-3.png" alt="makdak">
+                            <span class="restaurant-name">Точка Дзы &mdash; Цветной </span>
+                            <span class="restaurant-type">₽₽ • Вьетнамская</span>
+                            <span class="wait-time">40 - 50 Min</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <a href="#" class="card_link">
+                        <div class="card">
+                            <img class="restaurant-img" src="imgs/photo-4.png" alt="makdak">                            
+                            <span class="restaurant-name">Cinnabon</span>
+                            <span class="restaurant-type">₽ • Выпечка • Десерты • Капкейки</span>
+                            <span class="wait-time">25 - 35 Min</span>                            
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <a href="#" class="card_link">
+                        <div class="card">
+                            <img class="restaurant-img" src="imgs/photo-6.png" alt="makdak">                       
+                            <span class="restaurant-name">PIZZELOVE</span>
+                            <span class="restaurant-type">₽₽ • Пицца</span>
+                            <span class="wait-time">15 - 25 Min</span>     
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <a href="#" class="card_link">
+                        <div class="card">
+                            <img class="restaurant-img" src="imgs/photo-7.png" alt="makdak">                           
+                            <span class="restaurant-name">Zю кафе &mdash; Тверская </span>
+                            <span class="restaurant-type">₽₽ • Японская</span>
+                            <span class="wait-time">25 - 35 Min</span>                          
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <a href="#" class="card_link">
+                        <div class="card">
+                            <img class="restaurant-img" src="imgs/photo-8.png" alt="makdak">                          
+                            <span class="restaurant-name">Bar BQ Cafe &mdash; Манежная </span>
+                            <span class="restaurant-type">₽₽₽ • Европейская</span>
+                            <span class="wait-time">30 - 40 Min</span>                          
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="white__logo">                        
+                            <img src="logos/white-logo.svg" alt="white-logo">
+                        </div>                        
+                    </div>
+                </div>
+                <div class="row">
+                    
+                    <div class="col-xs-12 col-md-4 col-lg-4">
+                        <div class="language">                            
+                            <form action="#">
+                                    <select class="footer__select">
+                                        <option value="English" selected>ENGLISH</option>
+                                    </select>
+                            </form>
+                        </div>
+                        <div class="social">
+                            
+                            <span class="hash">#</span>
+                            <span>UberEats</span>
+                            
+                            <div class="social__logos">
+                                <a href="#">
+                                    <img class="social__logos__facebook" src="logos/facebook.svg" alt="facebooklogo">
+                                </a>
+                                <a href="#">
+                                    <img class="social__logos__twitter" src="logos/twitter.svg" alt="twitterlogo">
+                                </a>
+                                <a href="">
+                                    <img class="social__logos__instagram" src="logos/instagram.svg" alt="instagramlogo">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-lg-4">
+                        <ul class="footer-info">
+                            <li class="footer-info__item">
+                                <a href="#">About UberEats</a>
+                            </li>
+                            <li class="footer-info__item">
+                                <a href="#">Become a Delivery Partner</a>
+                            </li>
+                            <li class="footer-info__item">
+                                <a href="#">Become a Restaurant Partner</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-lg-4">
+                        <ul class="footer-info">
+                            <li class="footer-info__item">
+                                <a href="//#">See all cities</a>
+                            </li>
+                            <li class="footer-info__item">
+                                <a href="#">Pricing</a>
+                            </li>
+                            <li class="footer-info__item">
+                                <a href="#">Help</a>
+                            </li>
+                            <li class="footer-info__item">
+                                <a href="#">FAQs</a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="get_app">
+                            <img class="get_app__apple" src="logos/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="applelogo">
+                            <img src="logos/en_badge_web_generic-cf6dad406f.svg" alt="googleapp">
+                        </div>    
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-4 col-lg-4">
+                        <div class="footer__margin-top">
+                            
+                                <a href="#" class="lowfooter__text-style">© 2017 Uber Technologies Inc.</a>
+                            
+                        </div>       
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-lg-4">
+                        <div class="footer-info__gap">
+                            
+                                <a href="#" class="lowfooter__text-style">Privacy</a>
+                            
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4 col-lg-4">
+                        <div class="footer__margin-bottom">
+                            
+                                <a href="#" class="lowfooter__text-style">Terms</a>
+                            
+                        </div>
+                    </div>
+                    </div>
+            </div>
+            <a href="#header">
+                <div class="greenbutton">
+                    <img src="logos/Shape.svg" alt="pointerup">
+                </div>
+            </a>
+        </footer>
+</body>
+</html>
